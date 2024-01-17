@@ -9,8 +9,8 @@ def is_ajax(request):
 
 def home_page(request):
     context = {
-                    "title": "Home Page",
-                    "content": "Bem vindo a Home Page",
+                    "title": "ROBOFILD +",
+                    "content": "Bem vindo a Robofild Plus.",
               }
     if request.user.is_authenticated:
         context["premium_content"] = "Você é um usuário Premium"
